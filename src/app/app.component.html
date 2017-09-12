@@ -1,0 +1,40 @@
+
+<div class="container" style="padding: 50px;">
+  <h1>
+    {{title}}
+  </h1>
+  <div class="row">
+    <div class="col-md-3" style="padding: 20px;">
+      <h3>Basic</h3>
+      <ul>
+        <li><a routerLink="/buttons">Buttons</a></li>
+        <li><a routerLink="/chart">Chart</a></li>
+        <li><a routerLink="/dateinputs">DateInputs</a></li>
+        <li><a routerLink="/dialog">Dialog</a></li>
+        <li><a routerLink="/dropdowns">Dropdowns</a></li>
+        <li><a routerLink="/grid">Grid</a></li>
+        <li><a routerLink="/inputs">Inputs</a></li>
+        <li><a routerLink="/label">Label</a></li>
+        <li><a routerLink="/layout">Layout</a></li>
+        <li><a routerLink="/popup">Popup</a></li>
+        <!-- <li><a routerLink="/ripple">Ripple</a></li> -->
+        <li><a routerLink="/scrollview">ScrollView</a></li>
+        <li><a routerLink="/sortable">Sortable</a></li>
+        <li><a routerLink="/upload">Upload</a></li>
+      </ul>
+      <h3>Advanced</h3>
+      <ul>
+        <li><a routerLink="/grid-directives">Grid directives</a></li>
+        <li><a routerLink="/grid-editing-directives">Grid editing directives</a></li>
+        <li><a routerLink="/grid-edit">Grid form editing</a></li>
+      </ul>
+    </div>
+    <div class="col-md-9" style="padding: 20px;">
+    
+
+        <router-outlet></router-outlet>
+
+    </div>
+
+  </div>
+</div>
